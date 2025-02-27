@@ -18,7 +18,7 @@ The solutions are organized based on **problem ID** for easy navigation.
  ┃ ┣ 📄 1002.c  # Example: Area of a Circle
  ┃ ┣ 📄 ...
 📄 README.md  # You’re reading it now! 🎉
-📄 Licence
+📄 LICENSE
 ```
 
 ## 🚀 Getting Started
