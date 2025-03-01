@@ -23,6 +23,12 @@ int main(){
 
     scanf("%d %d", &x, &y);
 
+    if(x>y){
+        x += y;
+        y = x - y;
+        x -= y;
+    }
+
     for(int i = x; i<y; i++){
         check(i);
     }
