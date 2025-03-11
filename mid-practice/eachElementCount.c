@@ -2,7 +2,7 @@
 
 int main() {
 
-    int size;
+    int size, count = 0;
 
     scanf("%d", &size);
 
@@ -13,10 +13,20 @@ int main() {
     }
 
     for (int i = 0; i < size; i++) {
-        
+ 
+
+            if (arr[i] == -1) {
+                count++;
+            }
+    }
+
+    printf("Element -1 occurs %d times\n", count);
+
+    for (int i = 0; i < size; i++) {
+
         if (arr[i] == -1) continue;
 
-        int count = 1;
+        count = 1;
         for (int j = i + 1; j < size; j++) {
             if (arr[i] == arr[j]) {
                 count++;
