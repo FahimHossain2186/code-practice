@@ -6,11 +6,13 @@ int main()
     scanf("%d", &x);
 
     if (x == 1)
-        printf("1 ");
-    else if (x >= 2)
-        printf("1 1 ");
+        printf("0 ");
+    else if (x == 2)
+        printf("0 1 ");
+    else if (x >= 3)
+        printf("0 1 1 ");
 
-    for (int i = 3; i <= x; i++)
+    for (int i = 4; i <= x; i++)
     {
         temp = n1 + n2;
         n1 = n2;
